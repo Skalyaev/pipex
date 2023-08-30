@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header.h"
+#include "../../include/header.h"
 
 void	free_array(char **str)
 {

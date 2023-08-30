@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header.h"
+#include "../../include/header.h"
 
 char	*find_path(char **envp)
 {

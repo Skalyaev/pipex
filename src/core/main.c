@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "header.h"
+#include "../../include/header.h"
 
 void	child_one(int *pipe_fd, int fd1, char **cmd1)
 {
