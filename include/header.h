@@ -11,23 +11,23 @@
 /* ************************************************************************** */
 
 #ifndef HEADER_H
-# define HEADER_H
+#define HEADER_H
 
-# include <unistd.h>
-# include <stdlib.h>
-# include <fcntl.h>
-# include <sys/types.h>
-# include <sys/wait.h>
-# include <errno.h>
-# include <string.h>
+#include <unistd.h>
+#include <stdlib.h>
+#include <fcntl.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include <errno.h>
+#include <string.h>
 
-char	*ft_strjoin(char *s1, char *s2);
-char	**ft_split(char *s, char c);
-void	free_array(char **str);
-char	**get_cmd(char *av, char **envp);
-int     ft_strncmp(const char *s1, const char *s2, size_t n);
-int     ft_strlen(const char *str);
-int     ft_error(char *error_message, char *optional, int ret);
-char	*ft_strdup(const char *s);
+char *ft_strjoin(char *s1, char *s2);
+char **ft_split(char *s, char c);
+void free_array(char **str);
+char **get_cmd(char *av, char **envp);
+int ft_strncmp(const char *s1, const char *s2, size_t n);
+int ft_strlen(const char *str);
+int ft_error(char *error_message, char *optional, int ret);
+char *ft_strdup(const char *s);
 
 #endif
