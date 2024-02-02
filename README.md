@@ -9,6 +9,5 @@ Reproduire le fonctionnement de `< file1 cmd1 | cmd2 > file2`.
 git clone git@github.com:Skalyaeve/pipex.git
 cd pipex
 make
-echo "Hello, world!" > input
-./pipex input cmd1 cmd2 output
+./pipex
 ```
