@@ -10,7 +10,7 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../../include/header.h"
+#include "../include/header.h"
 
 void child_one(int *pipe_fd, int fd1, char **cmd1)
 {
@@ -83,7 +83,7 @@ int main(int ac, char **av, char **envp)
     char **cmd2;
 
     if (ac != 5)
-        return (ft_error("Usage: ./pipex [input file] [cmd1] [cmd2] [ouput file]", NULL, 1));
+        return (ft_error("Usage: [input file] [cmd1] [cmd2] [ouput file]", NULL, 1));
     fd1 = open(av[1], O_RDONLY);
     fd2 = open(av[4], O_CREAT | O_RDWR | O_TRUNC, 0644);
     if (fd1 < 0)
