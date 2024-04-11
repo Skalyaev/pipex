@@ -4,7 +4,7 @@
 Votre programme devra reproduire le comportement de la syntaxe suivante: `< file1 cmd1 | cmd2 > file2`
 
 ## Preview
-![](https://github.com/Skalyaeve/images/blob/main/screenshot/pipex.gif)
+![](https://github.com/Skalyaeve/images-1/blob/main/screenshot/pipex.gif)
 
 ## Install
 ```bash
