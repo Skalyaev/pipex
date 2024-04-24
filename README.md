@@ -18,10 +18,9 @@ mkdir -p $HOME/.local/src
 mkdir -p $HOME/.local/include
 ```
 ```bash
-link=Skalyaeve/pipex
 name=pipex
 
-git clone https://github.com/$link.git $name
+git clone https://github.com/Skalyaeve/$name.git
 cd $name && make && make clean
 
 ln -s $PWD/$name $HOME/.local/bin/$name
