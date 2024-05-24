@@ -43,3 +43,4 @@ rm $HOME/.local/bin/$name
 rm $HOME/.local/src/$name
 rm $HOME/.local/include/$name
 ```
+
